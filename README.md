@@ -39,6 +39,14 @@ Before deploying the website, make sure you have the following tools and account
 ## Setup Guide:
 
 Deploying the Website
+
+Write Terraform Code
+Your Terraform files should:
+Create a GCS Bucket
+Make Bucket Public
+Upload Files
+
+Deployment Commands:
 1. Initialize Terraform
 Run the following command to initialize Terraform and download the necessary provider plugins:
 **terraform init**
