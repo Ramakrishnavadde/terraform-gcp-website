@@ -40,10 +40,13 @@ Before deploying the website, make sure you have the following tools and account
 
 Deploying the Website
 
-Write Terraform Code
+Write Terraform Code-
+
 Your Terraform files should:
 Create a GCS Bucket
+
 Make Bucket Public
+
 Upload Files
 
 Deployment Commands:
