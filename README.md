@@ -62,9 +62,11 @@ Managing the Website
 To update your website, simply modify the files (e.g., index.html, styles.css, script.js) in the repository. Then, run the following command to apply the changes:
 
 **terraform apply**
+
 Terraform will upload the updated files to your GCS bucket.
 
 2. Destroying the Resources
 If you want to remove the resources (e.g., GCS bucket and files), run:
 **terraform destroy**
+
 This will delete the GCS bucket and all the files in it.
