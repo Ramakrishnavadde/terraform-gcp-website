@@ -1,0 +1,5 @@
+# .gitignore
+service-account-key.json
+.terraform/
+terraform.tfstate*
+*.log
